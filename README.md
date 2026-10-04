@@ -23,7 +23,7 @@ case, the menu shows "Virtual gamepad unavailable in this build".
 | USB input through IOKit's IOUSBLib, inside the App Sandbox | Works. Tested on macOS 27 with a Mad Catz BrawlPad (`1bad:f02a`): D-pad and diagonals, A/B/X/Y, LB/RB, and both triggers. |
 | Hot-plug | Works. Unplugging and replugging disconnects and reconnects the controller. |
 | Any wired controller with an XUSB interface (class `ff/5d/01`) | Built. Only the BrawlPad has been tested. |
-| Player LEDs for up to 4 controllers | Built. Not yet confirmed on hardware. |
+| Player LEDs for up to 4 controllers | Works. Confirmed on the BrawlPad for player 1. |
 | Virtual HID gamepad per controller, through CoreHID | Waiting on Apple's entitlement. |
 | Open at login | Built. Not yet tested. |
 
